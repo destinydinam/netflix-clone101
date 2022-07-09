@@ -1,0 +1,25 @@
+.nav__bar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+.nav__bar__logo{
+    margin: 1.5rem;
+    object-fit: contain;
+    width:100px;
+}
+
+.nav__bar__avatar{
+    margin: 1.5rem;
+    object-fit: contain;
+    width: 45px;
+    border-radius: 1.2rem;
+
+}
+
+.nav__bar__dark{
+    background-color: rgba(0, 0, 0, 0.938);
+    transition-timing-function: ease-in;
+    transition: all 1s;
+}

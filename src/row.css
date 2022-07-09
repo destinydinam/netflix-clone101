@@ -1,0 +1,44 @@
+/* .row{
+    margin-left: 1rem;
+} */
+
+
+.row__posters{
+    /* turn the posters into one column */
+    display: flex;
+    /* flex-direction: column; */
+    /* Hides any scroll bar on the y-axis */
+    overflow-y: hidden;
+    /* throws in a scroll bar for each category on the x-axis */
+    overflow-x: scroll;
+    /* I added the padding because when I added the oeverflow, it crops the poster on hover */
+    padding: 1rem;
+}
+
+.row__posters::-webkit-scrollbar{
+    display: none;
+}
+
+
+.row__poster{
+    /* will keep the dimensions relatively same no matter the screen size, aspect ratio */
+    object-fit: contain;
+    /* will use 100% of the screen, in this case its div container */
+    width: 100%;
+    /* max-height: 150px; */
+    max-height: 12rem;
+    /* transition effect so that if the posters ever changes sizes, they will do it in a nice way */
+    transition: transform 700ms;
+    /* for gap among the posters */
+    margin-right: 0.7rem;
+    border-radius: 0.3rem;
+}
+
+.row__poster:hover{
+    transform: scale(1.1);
+}
+
+.row__posterLarger{
+    width: 12rem;
+    margin-right: 1.1rem;
+}

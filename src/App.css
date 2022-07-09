@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+
+.App{
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+
+
+.rows{
+    margin: 2rem 0.5rem;
+}
