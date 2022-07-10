@@ -2,4 +2,4 @@
 
 # My first ever app to be deployed
 
-# Will make sure I build more projects and oush them here more often
+# Will make sure I build more projects and push them here more often
